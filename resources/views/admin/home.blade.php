@@ -1,3 +1,16 @@
-<x-app-layout>
+<head>
+    @include('admin.css')
+</head>
 
-</x-app-layout>
+<body>
+    <div class="container-scroller">
+
+        @include('admin.sidebar')
+
+        @include('admin.header')
+
+        @include('admin.body')
+    </div>
+    @include('admin.script')
+</body>
+
